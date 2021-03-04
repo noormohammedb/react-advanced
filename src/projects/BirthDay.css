@@ -1,0 +1,53 @@
+.container {
+   max-width: 40vw;
+   transition-duration: 900ms;
+}
+.inside {
+   margin: 5px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px;
+   background-color: #464646c5;
+   transition-duration: 900ms;
+}
+.pic {
+   border-radius: 30%;
+   margin: 5px 0;
+}
+.data {
+   width: 60%;
+   display: flex;
+   padding: 0 20px;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 1.5rem;
+   color: #000;
+}
+.name {
+   align-self: center;
+   color: #000;
+}
+.age {
+   color: #000;
+   align-self: center;
+}
+
+.customBtn {
+   /* font-size: 10px; */
+   width: 80px;
+   height: 50px;
+   align-self: center;
+   background-color: #aeff79ad;
+   border: solid 3px #fa37377f;
+   border-radius: 20px;
+   outline: none;
+   transition-duration: 0.5s;
+}
+.customBtn:focus {
+   background-color: #a0b932;
+}
+.customBtn:hover {
+   border: solid 3px #fa3737fc;
+}
